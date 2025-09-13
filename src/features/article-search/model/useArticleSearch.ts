@@ -1,5 +1,5 @@
 import { AppDispatch, RootState } from "@/app/stores/MainStore/mainStore";
-import { getArticles, setSearchQuery } from "@/entities/article/model";
+import { getArticles, setSearchQuery } from "@/entities/article";
 import { useDebounce } from "@/shared/lib";
 import { useState, useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";

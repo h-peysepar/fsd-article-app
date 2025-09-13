@@ -1,5 +1,5 @@
-import { articleReducer } from "@/entities/article/model";
-import { userReducer } from "@/entities/user/model";
+import { articleReducer } from "@/entities/article";
+import { userReducer } from "@/entities/user";
 import { combineReducers } from "@reduxjs/toolkit";
 
 export const rootReducer = combineReducers({

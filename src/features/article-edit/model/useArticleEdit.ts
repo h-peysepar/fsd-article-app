@@ -1,5 +1,5 @@
 import { AppDispatch, RootState } from "@/app/stores/MainStore/mainStore";
-import { editArticle } from "@/entities/article/model"; // припускаємо, що editArticle — це асинхронна дія (thunk)
+import { editArticle } from "@/entities/article"; // припускаємо, що editArticle — це асинхронна дія (thunk)
 import { ROUTES } from "@/shared/config";
 import { useState, useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";

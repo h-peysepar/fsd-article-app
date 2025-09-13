@@ -1,6 +1,6 @@
 import { Loader } from "@/shared/ui/loader";
 import { useArticleList } from "../model";
-import { ArticleCard } from "@/entities/article/ui";
+import { ArticleCard } from "@/entities/article";
 import { Link } from "react-router-dom";
 import { Button } from "@/shared/ui/button";
 import { DeleteArticleButton } from "@/features/article-delete";

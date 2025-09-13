@@ -1,5 +1,5 @@
 import { AppDispatch, RootState } from "@/app/stores/MainStore/mainStore";
-import { login, logout } from "@/entities/user/model/thunks";
+import { login, logout } from "@/entities/user";
 import { useDispatch, useSelector } from "react-redux";
 
 export const useAuth = () => {

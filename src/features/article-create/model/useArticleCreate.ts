@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useDispatch } from "react-redux";
 import { toast } from "sonner";
-import { addArticle } from "@/entities/article/model";
+import { addArticle } from "@/entities/article";
 import { AppDispatch } from "@/app/stores/MainStore";
 
 export const useArticleCreate = () => {

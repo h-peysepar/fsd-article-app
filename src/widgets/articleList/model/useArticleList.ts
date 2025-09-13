@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { AppDispatch, RootState } from "@/app/stores/MainStore/mainStore";
-import { getArticles } from "@/entities/article/model";
+import { getArticles } from "@/entities/article";
 
 export const useArticleList = () => {
   const dispatch: AppDispatch = useDispatch();

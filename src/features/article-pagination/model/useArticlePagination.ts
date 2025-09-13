@@ -3,7 +3,7 @@
 import { useDispatch, useSelector } from "react-redux";
 import { AppDispatch, RootState } from "@/app/stores/MainStore/mainStore";
 import { useEffect } from "react";
-import { getArticles, setPage } from "@/entities/article/model";
+import { getArticles, setPage } from "@/entities/article";
 
 export const useArticlePagination = () => {
   const dispatch: AppDispatch = useDispatch();

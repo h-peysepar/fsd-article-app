@@ -1,5 +1,5 @@
 import { AppDispatch } from "@/app/stores/MainStore";
-import { deleteArticle } from "@/entities/article/model";
+import { deleteArticle } from "@/entities/article";
 import { ROUTES } from "@/shared/config";
 import { useDispatch } from "react-redux";
 import { useNavigate } from "react-router-dom";
