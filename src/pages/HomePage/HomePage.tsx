@@ -1,6 +1,6 @@
 import { RootState } from "@/app/stores/MainStore/mainStore";
-import { ArticleCreateForm } from "@/features/article-create/ui";
-import { ArticlePagination } from "@/features/article-pagination/ui";
+import { ArticleCreateForm } from "@/features/article-create";
+import { ArticlePagination } from "@/features/article-pagination";
 import { ArticleSearch } from "@/features/article-search/ui/ArticleSearch";
 import { ArticleList } from "@/widgets/articleList/ui/ArticleList";
 import { useSelector } from "react-redux";

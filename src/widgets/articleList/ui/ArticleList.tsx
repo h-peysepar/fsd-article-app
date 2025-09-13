@@ -3,7 +3,7 @@ import { useArticleList } from "../model";
 import { ArticleCard } from "@/entities/article/ui";
 import { Link } from "react-router-dom";
 import { Button } from "@/shared/ui/button";
-import { DeleteArticleButton } from "@/features/article-delete/ui";
+import { DeleteArticleButton } from "@/features/article-delete";
 import { useSelector } from "react-redux";
 import { RootState } from "@/app/stores/MainStore";
 
